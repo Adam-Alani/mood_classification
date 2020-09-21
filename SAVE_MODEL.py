@@ -13,9 +13,9 @@ import tensorflow as tf
 # Set up Connection
 from tensorflow.python.saved_model import saved_model
 
-client_id = "25de10f8c435462cb6a5aab079cea2a9"  # Need to create developer profile
-client_secret = "8fe6009a4faa4b6e891ad39e05488c9d"
-username = "21tqxjahbydtkdwzchxyhuvhy"
+client_id = ""  # Need to create developer profile
+client_secret = ""
+username = ""
 scope = 'user-library-read playlist-read-private'
 redirect_uri = "http://localhost:8888/callback/"
 client_credentials_manager = SpotifyClientCredentials(client_id=client_id,
